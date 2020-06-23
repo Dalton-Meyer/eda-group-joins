@@ -30,3 +30,6 @@ SELECT count("products") FROM "products"
 SELECT sum(warehouse_product.on_hand) FROM "warehouse_product"
 JOIN "products" ON "products"."id" = "warehouse_product"."product_id"
 WHERE "products"."description" = 'diet pepsi'
+
+--stretch
+--how much was the toal cost for each order
